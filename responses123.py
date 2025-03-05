@@ -362,7 +362,8 @@ responses = [
     "https://media.discordapp.net/attachments/511037041447010323/1345440105199960154/96d30b56daddc3c101abd718c09c736f.jpg",
     "https://media.discordapp.net/attachments/1296018309275324447/1346366274749333615/GlHGE2oawAEVtt9.png",
     "https://media.discordapp.net/attachments/511037041447010323/1346419476802834442/470202325_893850406151195_2563957800699907963_n.png",
-    #"",
+    "https://cdn.discordapp.com/attachments/511037041447010323/1346608629813350433/image0.jpg",
+    "https://cdn.discordapp.com/attachments/1345813646344978463/1346430173922459679/IMG_3575.jpg",
 ]
 
 # 定義回應選項 !今日
