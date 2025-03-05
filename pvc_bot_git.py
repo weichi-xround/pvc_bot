@@ -2,7 +2,8 @@ import sys
 import os
 import threading  # 用來同時運行 Flask 和 Discord Bot
 from flask import Flask
-from responses123 import responses, responses2, responses3, responsesyan, responsesG2, responsesP
+from responses123 import responses, responses2, responses3, responsesyan
+from responsesGT import responsesG2, responsesP
 #import nextcord as discord
 import discord
 from discord import app_commands
