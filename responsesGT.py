@@ -4,7 +4,7 @@ responsesG2 = {
     "啾啾": "https://cdn.discordapp.com/attachments/1302303828082950286/1306463908718055424/chu.png",
     "你還是學生嗎": "https://cdn.discordapp.com/attachments/1302303828082950286/1306463085816582184/2024-11-14_11.37.42.png",
     "好啦 啾啾": "https://cdn.discordapp.com/attachments/1302303828082950289/1331104632474304606/image.png",
-    "靠邀 也太多語錄了吧": "https://cdn.discordapp.com/attachments/1302303828082950286/1308701180477837383/image.png?ex=673ee673&is=673d94f3&hm=aee93dd43148af3551e269e2706b154de8e80668ce536b1126bf154508012343&",
+    "靠邀 也太多語錄了吧": "https://cdn.discordapp.com/attachments/1302303828082950286/1308701180477837383/image.png",
     "黑人頭 cmonbruh": "https://cdn.discordapp.com/attachments/1306473782508126238/1306885581158223933/image.png",
     "靠邀 你們有病是不是阿": "https://cdn.discordapp.com/attachments/1306473782508126238/1306537753156124712/2024-11-14_155328.png",
     "哩係勒靠喔": "https://cdn.discordapp.com/attachments/1306473782508126238/1306885580596052008/image.png",
