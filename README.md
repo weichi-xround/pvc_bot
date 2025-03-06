@@ -48,7 +48,7 @@
 ## 執行方式
 1. 安裝相依套件：
    ```bash
-   pip install flask discord.py
+   pip install -r requirements.txt
    ```
 2. 設定環境變數（Linux/Mac）：
    ```bash
@@ -57,7 +57,7 @@
    ```
 3. 執行程式：
    ```bash
-   python bot.py
+   python pvc_bot_git.py
    ```
 
 ---
