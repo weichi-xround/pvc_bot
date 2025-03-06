@@ -88,7 +88,7 @@ async def on_message(message):
                 )
 
                 result = response.json()
-                print("API 回應結果:", result)  # Debug 用
+                print("API 回應結果:", result, flush=True)  # Debug 用
 
                 if 'ParsedResults' in result and len(result['ParsedResults']) > 0:
                     parsed_text = result['ParsedResults'][0]['ParsedText']
