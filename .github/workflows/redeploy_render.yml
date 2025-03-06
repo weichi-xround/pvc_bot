@@ -1,0 +1,15 @@
+name: Redeploy Render App
+
+on:
+  schedule:
+    - cron: '0 21 * * *'  # UTC 時間 18:00（台灣時間 02:00）每天自動執行
+  workflow_dispatch:  # ✅ 允許手動觸發
+
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Render Deployment
+        run: curl -X POST https://api.render.com/deploy/srv-cv3vf9t6l47c7389i870?key=DsK-TiLHvjo
