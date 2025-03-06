@@ -14,7 +14,7 @@ import requests
 import asyncio
 
 OCR_API_URL = 'https://api.ocr.space/parse/image'
-OCR_API_KEY = 'K84485044288957'
+OCR_API_KEY = os.environ.get("OCR_API_KEY_TOKEN")
 
 # Flask 伺服器
 app = Flask(__name__)
