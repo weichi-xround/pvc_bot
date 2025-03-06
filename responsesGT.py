@@ -194,6 +194,7 @@ responsesG2 = {
     "他可是接生師 除了料理以外的話都不太能信": "https://media.discordapp.net/attachments/1296018309275324447/1346034228441124895/image.png",
     "金塊輸球我太難過了 我要去睡了": "https://media.discordapp.net/attachments/1302303828082950286/1347052237641224232/2025-03-06_113728.png",
     "我絕對不是星期日那帳號用白底來提醒自己": "https://media.discordapp.net/attachments/1302303828082950286/1347110060484198492/image.png",
+    "我才40": "https://media.discordapp.net/attachments/1302303828082950286/1347225561721737226/image.png",
     #"": "",
 }
 
