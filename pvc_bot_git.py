@@ -10,6 +10,11 @@ from discord import app_commands
 from discord.ext import commands
 import random
 import time
+import requests
+import asyncio
+
+OCR_API_URL = 'https://api.ocr.space/parse/image'
+OCR_API_KEY = 'K84485044288957'
 
 # Flask 伺服器
 app = Flask(__name__)
@@ -63,6 +68,32 @@ async def on_message(message):
 
     # 设置冷却时间2秒
     cooldowns[user_id] = time.time() + 1
+
+    if message.attachments:
+        for attachment in message.attachments:
+            if attachment.filename.lower().endswith(('png', 'jpg', 'jpeg', 'gif')):
+                
+                # 等待 2 秒確保 Discord URL 可存取
+                await asyncio.sleep(2)
+
+                image_url = attachment.url
+                response = requests.post(
+                    OCR_API_URL,
+                    data={
+                        'apikey': OCR_API_KEY,
+                        'url': image_url,
+                        'language': 'cht',  # 修正為 'cht'（繁體中文）
+                        'isOverlayRequired': False
+                    }
+                )
+
+                result = response.json()
+                print("API 回應結果:", result)  # Debug 用
+
+                if 'ParsedResults' in result and len(result['ParsedResults']) > 0:
+                    parsed_text = result['ParsedResults'][0]['ParsedText']
+                    if parsed_text.strip():
+                        await message.reply(f'{parsed_text}')
 
     if message.content == "!吃啥":
 
