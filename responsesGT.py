@@ -192,7 +192,8 @@ responsesG2 = {
     "騙line只有糖糖 重點是騙不到": "https://cdn.discordapp.com/attachments/1308088235540611192/1344514812297609306/image.png",
     "你們的演算法到底有什麼problem": "https://cdn.discordapp.com/attachments/1302303828082950289/1344566787571843124/image.png",
     "他可是接生師 除了料理以外的話都不太能信": "https://media.discordapp.net/attachments/1296018309275324447/1346034228441124895/image.png",
-    #"": "",
+    "金塊輸球我太難過了 我要去睡了": "https://media.discordapp.net/attachments/1302303828082950286/1347052237641224232/2025-03-06_113728.png",
+    #
 }
 
 # 預設圖片網址列表
