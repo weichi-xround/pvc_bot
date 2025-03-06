@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Bot is active!"
+    return "Bot is active!", 200  # 確保返回 HTTP 200 狀態碼
 
 def run_flask():
     port = int(os.environ.get("PORT", 5000))  # 讓 Render 取得 PORT 環境變數
